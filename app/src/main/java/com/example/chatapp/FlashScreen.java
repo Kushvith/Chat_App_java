@@ -19,7 +19,7 @@ public class FlashScreen extends AppCompatActivity {
             @Override
             public void run() {
                 // after 3sec navigating to main screen
-                Intent intent = new Intent(FlashScreen.this, setProfile.class);
+                Intent intent = new Intent(FlashScreen.this, MainActivity.class);
                 startActivity(intent);
 //                finish is used when user press back it should not redirect to splash
                 finish();

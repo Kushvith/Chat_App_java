@@ -112,7 +112,7 @@ ActivityResultLauncher<String> mTakePhoto;
 //          Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.INTERNAL_CONTENT_URI);
 //          startActivityForResult(intent,pick_image);
           mTakePhoto.launch("image/*");
-          Toast.makeText(setProfile.this, "image picked", Toast.LENGTH_SHORT).show();
+
       }
   });
 

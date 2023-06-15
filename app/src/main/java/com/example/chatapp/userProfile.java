@@ -7,7 +7,7 @@ public class userProfile {
         this.username = username;
         this.userUid = userUid;
     }
-
+public userProfile(){}
     public String getUserUid() {
         return userUid;
     }
